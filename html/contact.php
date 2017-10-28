@@ -24,7 +24,12 @@
         }
       }
 
-      
+      function validateNonEmpty(inputField, helpText) {
+        // See if the input value contains any text
+        return validateRegEx(/.+/,
+          inputField.value, helpText,
+          "Please enter a value.");
+      }
 
       function validateLength(minLength, maxLength, inputField, helpText) {
         // See if the input value contains at least minLength but no more than maxLength characters
