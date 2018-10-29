@@ -1,2 +1,2 @@
 # Image-Gallery-
-Creating an image gallery using ajax and php
+# Creating an image gallery using ajax and php
